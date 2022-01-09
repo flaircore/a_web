@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/**
+https://developer.mozilla.org/en-US/docs/Web/CSS/place-items
+ */
+header {
+    min-height: 20vh;
+    display: flex;
+    place-items: center;
+    background: dimgrey;
+}
+
+.content {
+    min-height: 60vh;
+    background: #dcdcdc;
+    background-image: url("../assets/bikers_trees.jpg"),
+                      url("../assets/nature_trees.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    min-height: 20vh;
+    display: grid;
+    place-items: center;
+    background: dimgrey;
+}

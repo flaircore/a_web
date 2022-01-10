@@ -1,6 +1,6 @@
 console.log("++++ latest Web APIS ++++++ ")
 const content = document.querySelector(".content")
-const original = { name: "Web technology for developers Web APIs structuredClone()" };
+const original = { name: "Web technology for developers Web APIs; Testing: structuredClone()" };
 original.itself = original;
 
 const clone = structuredClone(original);

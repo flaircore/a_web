@@ -9,12 +9,12 @@ header {
     min-height: 20vh;
     display: flex;
     place-items: center;
-    background: dimgrey;
+    /**background: dimgrey; */
 }
 
 .content {
     min-height: 60vh;
-    background: #dcdcdc;
+    /** background: #dcdcdc;*/
     background-image: url("../assets/bikers_trees.jpg"),
                       url("../assets/nature_trees.jpg");
     background-position: center;

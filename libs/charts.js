@@ -1,5 +1,28 @@
-const chart01= document.getElementById('chart01').getContext('2d');
-const chart02= document.getElementById('chart02').getContext('2d');
+const chart01 = document.getElementById('chart01').getContext('2d');
+const chart02 = document.getElementById('chart02').getContext('2d');
+const todoListDiv = document.querySelector('#todo-list')
+
+const todoList = {
+    value: ["Walk Dog", "Publish Blog", "Renew expired subscriptions"]
+}
+
+todoList.value = [...todoList.value, "Buy groceries"]
+todoList.value = [...todoList.value, "Fix reactivity Bug"]
+
+for (const todo of todoList.value) {
+    // Creates a "todo" document
+    const todoDiv = document.createElement("div")
+    todoDiv.classList.add("todo")
+    const newItem = document.createElement("li")
+    newItem.innerText = todo
+    newItem.classList.add("item")
+    todoDiv.appendChild(newItem)
+
+
+    // Add item to list
+    todoListDiv.appendChild(todoDiv)
+}
+
 const myChart = new Chart(chart01, {
     type: 'bar',
     data: {

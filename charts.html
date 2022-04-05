@@ -11,13 +11,16 @@
 </head>
 <body>
 <header>
-    <a href="index.html" target="_blank">A Web exp.!</a>
-    <a href="charts.html" target="_blank">Charts!</a>
+    <a href="index.html" target="blank">A Web exp.!</a>
+    <a href="charts.html" target="blank">Charts!</a>
 </header>
 <section>
+    <span>
+        Click on any button to show charts!
+    </span>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chart1Modal">
-        Launch Color Charts
+        Launch "Color" Charts
     </button>
 
     <!-- Modal -->
@@ -25,7 +28,7 @@
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modal01Label">Modal title</h5>
+                    <h5 class="modal-title" id="modal01Label">Modal title: Color Charts</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -41,7 +44,7 @@
 
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chart2Modal">
-        Launch Example Destination Charts
+        Launch Example "Destination" Charts
     </button>
 
     <!-- Modal -->
@@ -49,7 +52,7 @@
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modal02Label">Modal title</h5>
+                    <h5 class="modal-title" id="modal02Label">Modal title: Destination charts</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -62,7 +65,9 @@
             </div>
         </div>
     </div>
-
+    <div id="todo-items">
+        <ul id="todo-list"></ul>
+    </div>
 
 </section>
 <footer>

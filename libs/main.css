@@ -9,7 +9,7 @@ header {
     min-height: 20vh;
     display: flex;
     place-items: center;
-    /**background: dimgrey; */
+    background: dimgrey;
 }
 
 .content {
@@ -19,6 +19,15 @@ header {
                       url("../assets/nature_trees.jpg");
     background-position: center;
     background-size: cover;
+}
+
+#todo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    margin: 0rem 2rem;
 }
 
 footer {
